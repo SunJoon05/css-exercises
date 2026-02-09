@@ -8,8 +8,26 @@ img {
 }
 
 .title {
+  text-align: center;
   font-size: 36px;
   font-weight: 900;
+  padding-block-end: 32px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 52px;
+
+  &>div {
+    text-align: center;
+    max-inline-size: 200px;
+  }
+}
+
+.text {
+  text-align: center;
 }
 
 /* do not edit this footer */
